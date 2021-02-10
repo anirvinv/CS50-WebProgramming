@@ -1,0 +1,89 @@
+img {
+  height: 300px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#s1 {
+  display: block;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#search {
+  margin-left: auto;
+  margin-right: 18px;
+  border-radius: 18px;
+  padding: 14px;
+  border: 0.5px solid gray;
+  width: 500px;
+  height: 23px;
+  font-size: 15px;
+  outline: none;
+}
+
+div > input[type=submit] {
+  margin-right: auto;
+  border-radius: 20px;
+  background-color: white;
+  outline: none;
+  border-color: aliceblue;
+}
+
+div > input[type=submit]:hover {
+  background-color: lavender;
+}
+
+nav {
+  text-align: right;
+  color: black;
+  justify-content: space-between;
+  display: flex;
+}
+nav a {
+  color: #474545;
+  text-decoration: none;
+  margin-right: 20px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+#Store {
+  text-align: left;
+}
+#Store a {
+  margin-left: 20px;
+}
+
+button {
+  height: 40px;
+  width: 120px;
+  border-color: aliceblue;
+  background-color: white;
+  outline: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.buttons {
+  border-radius: 20px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 530px;
+  margin-right: 530px;
+  margin-top: 20px;
+}
+.buttons button {
+  outline: none;
+}
+.buttons button:hover {
+  background-color: lavender;
+}
+
+/*# sourceMappingURL=style.css.map */
